@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, inictial-scale=1.0">
     <title>My ATM</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <p> <img src="fifth_project/cajero.gif" /> </p>
-    <p id="total"></p>
-    <p> 
-        <input type="number" id="Money" /> 
-        <input type="button" value="Enter" id="Button" /> 
-    </p>
-    <p id="error"></p>
-    <p id="result"></p>
+  <main>
+    <section class="main-interface">
+      <figure>
+        <img src="fifth_project/cajero.gif" alt="ATM picture" />
+      </figure>
+      <article class="main-interface__form">
+        <input type="number" id="Money" autofocus placeholder="money value" step="5" min="5"/>
+        <input type="submit" value="withdraw money" id="Button" />
+        <div id="total"></div>
+      </article>
+      <div ><a href="" id="error"></a></div>
+    </section>
+    <div id="result"></div>
     <script src="fifth_project/atm.js"></script>
+  </main>
 </body>
 </html>

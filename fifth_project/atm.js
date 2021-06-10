@@ -78,7 +78,7 @@ function enter() {
     contar();
     if (totalM == 0) {
         var e = document.getElementById("error");
-        e.innerHTML = "<strong>Error: No balance (traduccion: el cajero esta misio) <strong/>";
+        e.innerHTML = " <strong>Error: No balance (traduccion: el cajero esta misio) <strong/>";
     }
     totalM = 0;
 }
@@ -91,6 +91,7 @@ function contar() {
         }
     }
     console.log(totalM);
+    t.innerHTML = "<strong> Balance: </strong>" + totalM;
 }
 contar();
 t.innerHTML = "<strong> Balance: </strong>" + totalM;

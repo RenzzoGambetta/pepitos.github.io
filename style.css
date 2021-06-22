@@ -4,22 +4,41 @@ body {
 }
 .main-interface {
     text-align: center;
+    margin: 0 10px;
+}
+.main-interface img {
+    width: 50%;
+    max-width: 325px;
+    min-width: 160px;
 }
 .main-interface__form {
-    display: inline-flex;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
 }
-#Money {
-    margin-left: 60px;
-    inline-size: 25%;
+.main-interface__form * {
+    /* width: 120px; */
+    min-width: 95px;
+    margin: 0 2px;
 }
 #Money:invalid {
     color: rgb(255, 61, 27);
+}
+#Button {
+    font-size: 90%;
+    padding: 3px;
 }
 #Button:active {
     background-color: rgb(52, 52, 255);
 }
 #error {
     color: red;
-    font-size: 15px;
+    font-size: 0.9rem;
     text-decoration: none;
+}
+
+#result img {
+    width: 25%;
 }

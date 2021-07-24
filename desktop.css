@@ -1,0 +1,29 @@
+/* MAIN */
+.main {
+    width: var(--vw);
+    height: auto;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+.main figure img {
+    max-width: 400px;
+}
+.c1, .c2, .c3, .c4 {
+    max-width: 450px;
+    min-height: 250px;
+    height: 30vh;
+    max-height: 300px;
+}
+.c1 {
+    background-color: rgb(50, 50, 50);
+}
+.c2 {
+    background-color: rgb(46, 46, 46);
+}
+.c3 {
+    background-color: rgb(42, 42, 42);
+}
+.c4 {
+    background-color: rgb(38, 38, 38);
+}

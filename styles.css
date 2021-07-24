@@ -1,0 +1,92 @@
+:root {
+    --vw: 100vw;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header {
+    width: var(--vw);
+    min-width: 150px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header .logo {
+    font-size: 2.5rem;
+}
+.header .nav {
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+.header .nav .item-header {
+    background-color: rgb(20, 34, 34);
+    width: 25vw;
+    min-height: 50px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-header a {
+    text-decoration: none;
+    color: white;
+}
+.item-header .logo_nike {
+    max-width: 9vw;
+    padding-left: 1vw;
+}
+/* MAIN */
+.main {
+    width: var(--vw);
+    min-height: 80vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.c1, .c2, .c3, .c4 {
+    width: 75vw;
+    max-height: 50vh;
+    margin: 5px 0px;
+    color: white;
+    font-size: 2rem;
+}
+.main figure {
+    margin: 0%;
+    background-color: white; 
+    text-align: center;
+    position: relative;
+}
+.main figure img {
+    width: calc(75vw - 10vw);
+    max-height: 200px;
+}
+.description {
+    position: relative;
+}
+.description .price{
+    background-color: rgb(100, 100, 100);
+    position: absolute;
+    bottom: 45px;
+}
+.c1 {
+    background-color: rgb(50, 50, 50);
+    margin-top: 10px;
+}
+.c2 {
+    background-color: rgb(46, 46, 46);
+}
+.c3 {
+    background-color: rgb(42, 42, 42);
+}
+.c4 {
+    background-color: rgb(38, 38, 38);
+}
+.footer {
+    width: var(--vw);
+    height: 5vh;
+    background-color: red;
+}

@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, inictial-scale=1.0">
-    <title>My ATM</title>
-    <link rel="stylesheet" href="./style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sneakers page</title>
+	<link rel="stylesheet" href="./normalize.css">
+	<link rel="stylesheet" href="./styles.css">
+	<link rel="stylesheet" href="./tablet.css" media="screen and (min-width:600px)" />
+	<link rel="stylesheet" href="./desktop.css" media="screen and (min-width:900px)" />
 </head>
 <body>
-  <main>
-    <section class="main-interface">
-      <figure>
-        <img src="fifth_project/cajero.gif" alt="ATM picture"/>
-      </figure>
-      <article class="main-interface__form">
-        <input type="number" id="Money" autofocus placeholder="money value" step="5" min="5"/>
-        <input type="submit" value="withdraw money" id="Button" />
-        <div id="total"></div>
-      </article>
-      <div ><a href="" id="error"></a></div>
-    </section>
-    <div id="result"></div>
-    <script src="fifth_project/atm.js"></script>
-  </main>
+	<header class="header">
+		<h1 class="logo">Sneakers</h1>
+		<nav>
+			<ul class="nav">
+            <li class="item-header"><a href="">Nike</a><img class="logo_nike" src="./images/logonike.png" alt=""></li>
+            <li class="item-header"><a href="">Adidas</a></li>
+            <li class="item-header"><a  href="">Puma</a></li>
+            <li class="item-header"><a href="">Rebook</a></li>
+         </ul>
+		</nav>
+	</header>
+	<main class="main">
+		<article class="c1">
+			<figure>
+				<img src="./images/Yezzy_700.png" alt="">
+			</figure>
+			<div class="description">
+				<span class="price">$320</span>
+				<div>Sneaker Yezzy 700</div>
+				<div>Women Men</div>
+			</div>
+		</article>
+		<article class="c2">
+			<figure>
+				<img src="./images/ultimashow.png" alt="">
+			</figure>
+			<div class="description">
+				<span class="price">$150</span>
+				<div>Sneaker UltimaShow</div>
+				<div>Women Men</div>
+			</div>
+		</article>
+		<article class="c3">
+			<figure>
+				<img src="./images/airforce_1.png" alt="">
+			</figure>
+			<div class="description">
+				<span class="price">$250</span>
+				<div>Sneaker Air Force 1</div>
+				<div>Women Men</div>
+			</div>
+		</article>
+		<article class="c4">
+			<figure>
+				<img src="./images/airmax_200.png" alt="">
+			</figure>
+			<div class="description">
+				<span class="price">$280</span>
+				<div>Sneaker Air Max 200</div>
+				<div>Women Men</div>
+		</article>
+	</main>
+	<footer class="footer"></footer>
 </body>
 </html>

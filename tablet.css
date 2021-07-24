@@ -1,0 +1,67 @@
+.header {
+    width: var(--vw);
+    min-width: 150px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.header .logo {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 20vw;
+}
+.header .nav {
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+.header .nav .item-header {
+    background-color: rgb(20, 34, 34);
+    width: 20vw;
+    height: auto;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-header a {
+    text-decoration: none;
+    color: white;
+}
+/* MAIN */
+.main {
+    width: var(--vw);
+    height: auto;
+    background-color: aquamarine;
+    display: flex;
+}
+.main figure img {
+    width: calc(50vw - 10vw);
+    max-height: 165px;
+}
+.description {
+    position: relative;
+    z-index: 1;
+}
+.c1, .c2, .c3, .c4 {
+    width: 50vw;
+    min-height: 200px;
+    height: 30vh;
+    max-height: 250px;
+}
+.c1 {
+    background-color: rgb(50, 50, 50);
+    margin-top: 5px;
+}
+.c2 {
+    background-color: rgb(46, 46, 46);
+}
+.c2 img {
+    height: 18.65vw;
+}
+.c3 {
+    background-color: rgb(42, 42, 42);
+}
+.c4 {
+    background-color: rgb(38, 38, 38);
+}
